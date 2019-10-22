@@ -30,7 +30,7 @@ class ValidatorFactory
         $this->factory = new Factory($this->loadTranslator());
     }
 
-    public function translationsRootPath(string $path = '')
+    public function translationsRootPath(string $path = null)
     {
         if (!empty($path)) {
             $this->basePath = $path;
@@ -45,12 +45,12 @@ class ValidatorFactory
         return $this;
     }
 
-    public function getTranslationsRootPath() : string
+    public function getTranslationsRootPath()
     {
         return dirname(__FILE__) . '/';
     }
 
-    public function loadTranslator() : Translator
+    public function loadTranslator()
     {
         $loader = new FileLoader(new Filesystem(), $this->basePath . $this->namespace);
         $loader->addNamespace($this->namespace, $this->basePath . $this->namespace);
