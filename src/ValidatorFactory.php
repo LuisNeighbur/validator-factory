@@ -1,6 +1,6 @@
 <?php
 
-namespace JeffOchoa;
+namespace Lautaro;
 
 use Illuminate\Validation;
 use Illuminate\Translation;

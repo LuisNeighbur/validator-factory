@@ -19,12 +19,12 @@
     ],
     "autoload": {
         "psr-4": {
-            "JeffOchoa\\": "src/"
+            "Lautaro\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "JeffOchoa\\Tests\\": "tests/"
+            "Lautaro\\Tests\\": "tests/"
         }
     }
 }

@@ -1,6 +1,6 @@
 <?php
 
-namespace JeffOchoa;
+namespace Lautaro;
 
 /**
  * Delete this folder and have fun

@@ -1,11 +1,11 @@
 <?php
 
-namespace JeffOchoa\Tests\Unit;
+namespace Lautaro\Tests\Unit;
 
-use JeffOchoa\Tests\TestCase;
-use JeffOchoa\ValidatorFactory;
-use JeffOchoa\Tests\Rules\isEqualToOneRule;
-use JeffOchoa\Tests\Rules\RuleReturnsKeyOnFailedTranslationRule;
+use Lautaro\Tests\TestCase;
+use Lautaro\ValidatorFactory;
+use Lautaro\Tests\Rules\isEqualToOneRule;
+use Lautaro\Tests\Rules\RuleReturnsKeyOnFailedTranslationRule;
 
 class ValidatorTest extends TestCase
 {
